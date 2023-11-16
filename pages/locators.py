@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class MainPageLocators():
-    LOGIN_LINK = (By.CSS_SELECTOR, "#language_selector")
+    LOGIN_LINK = (By.CSS_SELECTOR, "#registration_link")
 
 class LoginPageLocators():
     LOGIN_EMAIL = (By.NAME, "login-username")
